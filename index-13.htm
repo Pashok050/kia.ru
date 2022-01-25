@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="de-DE" class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="theme-color" content="#0658ff"/>	<link rel="profile" href="http://gmpg.org/xfn/11" />
+<script type="text/javascript">
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+var originalAddEventListener = EventTarget.prototype.addEventListener,
+oldWidth = window.innerWidth;
+EventTarget.prototype.addEventListener = function (eventName, eventHandler, useCapture) {
+if (eventName === "resize") {
+originalAddEventListener.call(this, eventName, function (event) {
+if (oldWidth === window.innerWidth) {
+return;
+}
+else if (oldWidth !== window.innerWidth) {
+oldWidth = window.innerWidth;
+}
+if (eventHandler.handleEvent) {
+eventHandler.handleEvent.call(this, event);
+}
+else {
+eventHandler.call(this, event);
+};
+}, useCapture);
+}
+else {
+originalAddEventListener.call(this, eventName, eventHandler, useCapture);
+};
+};
+};
+</script>
+<title>Patronace</title>
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Patronace &raquo; Feed" href="https://patronace.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Patronace &raquo; Kommentar-Feed" href="https://patronace.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/patronace.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
+</style>
+<!-- <link rel='stylesheet' id='layerslider-css'  href='https://patronace.com/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.7.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-library-css'  href='https://patronace.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-block-library-theme-css'  href='https://patronace.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.0.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='contact-form-7-css'  href='https://patronace.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='go-pricing-styles-css'  href='https://patronace.com/wp-content/plugins/go_pricing/assets/css/go_pricing_styles.css?ver=3.3.13' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='sb_instagram_styles-css'  href='https://patronace.com/wp-content/plugins/instagram-feed/css/sb-instagram.min.css?ver=1.10.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/8vf6y7yt/fws65.css" media="all"/>
+<!-- <link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='https://patronace.com/wp-content/plugins/recent-tweets-widget/tp_twitter_plugin.css?ver=1.0' type='text/css' media='screen' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/6mecufvo/fws65.css" media="screen"/>
+<!-- <link rel='stylesheet' id='rs-plugin-settings-css'  href='https://patronace.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8.2' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/1r6nz39l/fws65.css" media="all"/>
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<!-- <link rel='stylesheet' id='the7-Defaults-css'  href='https://patronace.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=5.0.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='js_composer_front-css'  href='https://patronace.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.6' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/by01jsx/fws65.css" media="all"/>
+<link rel='stylesheet' id='dt-web-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C600%2C700%7CRoboto+Condensed%3A400%2C600%2C700%7CTitillium+Web%3A400%2C600%2C700&#038;ver=7.4.0' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='dt-main-css'  href='https://patronace.com/wp-content/themes/dt-the7/css/main.min.css?ver=7.4.0' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/r49egk6/fws65.css" media="all"/>
+<style id='dt-main-inline-css' type='text/css'>
+body #load {
+display: block;
+height: 100%;
+overflow: hidden;
+position: fixed;
+width: 100%;
+z-index: 9901;
+opacity: 1;
+visibility: visible;
+-webkit-transition: all .35s ease-out;
+transition: all .35s ease-out;
+}
+.load-wrap {
+width: 100%;
+height: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+text-align: center;
+}
+.load-wrap > svg {
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+#load {
+background-color: #ffffff;
+}
+.uil-default rect:not(.bk) {
+fill: rgba(51,51,51,0.3);
+}
+.uil-ring > path {
+fill: rgba(51,51,51,0.3);
+}
+.ring-loader .circle {
+fill: rgba(51,51,51,0.3);
+}
+.ring-loader .moving-circle {
+fill: #333333;
+}
+.uil-hourglass .glass {
+stroke: #333333;
+}
+.uil-hourglass .sand {
+fill: rgba(51,51,51,0.3);
+}
+.spinner-loader .load-wrap {
+background-image: url("data:image/svg+xml,%3Csvg width='75px' height='75px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid' class='uil-default'%3E%3Crect x='0' y='0' width='100' height='100' fill='none' class='bk'%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(0 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(30 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.08333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(60 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.16666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(90 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.25s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(120 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.3333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(150 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.4166666666666667s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(180 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(210 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5833333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(240 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.6666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(270 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.75s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(300 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.8333333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(330 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.9166666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3C/svg%3E");
+}
+.ring-loader .load-wrap {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='rgba%2851%2C51%2C51%2C0.3%29'%3E   %3Cpath opacity='.25' d='M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4'/%3E   %3Cpath d='M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z'%3E     %3CanimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='0.8s' repeatCount='indefinite' /%3E   %3C/path%3E %3C/svg%3E");
+}
+.hourglass-loader .load-wrap {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='rgba%2851%2C51%2C51%2C0.3%29'%3E   %3Cpath transform='translate(2)' d='M0 12 V20 H4 V12z'%3E      %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline'  /%3E   %3C/path%3E   %3Cpath transform='translate(8)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.2' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline'  /%3E   %3C/path%3E   %3Cpath transform='translate(14)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.4' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E   %3Cpath transform='translate(20)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.6' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E   %3Cpath transform='translate(26)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.8' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E %3C/svg%3E");
+}
+</style>
+<!-- <link rel='stylesheet' id='dt-awsome-fonts-back-css'  href='https://patronace.com/wp-content/themes/dt-the7/fonts/FontAwesome/back-compat.min.css?ver=7.4.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dt-awsome-fonts-css'  href='https://patronace.com/wp-content/themes/dt-the7/fonts/FontAwesome/css/all.min.css?ver=7.4.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dt-fontello-css'  href='https://patronace.com/wp-content/themes/dt-the7/fonts/fontello/css/fontello.min.css?ver=7.4.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='the7pt-static-css'  href='https://patronace.com/wp-content/plugins/dt-the7-core/assets/css/post-type.min.css?ver=7.4.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dt-custom-css'  href='https://patronace.com/wp-content/uploads/the7-css/custom.css?ver=8b19f3930448' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dt-media-css'  href='https://patronace.com/wp-content/uploads/the7-css/media.css?ver=8b19f3930448' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='the7pt.less-css'  href='https://patronace.com/wp-content/uploads/the7-css/post-type-dynamic.css?ver=8b19f3930448' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='style-css'  href='https://patronace.com/wp-content/themes/patronace/style.css?ver=7.4.0' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ultimate-style-css'  href='https://patronace.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style.min.css?ver=3.17.1' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/glg9ukv/fwvht.css" media="all"/>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var slide_in = {"demo_dir":"https:\/\/patronace.com\/wp-content\/plugins\/convertplug\/modules\/slide_in\/assets\/demos"};
+/* ]]> */
+</script>
+<script src='//patronace.com/wp-content/cache/wpfc-minified/97oihk1a/fws65.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://patronace.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script> -->
+<!-- <script type='text/javascript' src='https://patronace.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.7.6"};
+/* ]]> */
+</script>
+<script src='//patronace.com/wp-content/cache/wpfc-minified/1dih1s9x/fws65.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0'></script> -->
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.6'></script> -->
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.7.6'></script> -->
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/cryptx/js/cryptx.min.js?ver=5.0.3'></script> -->
+<script type='text/javascript'>
+var oldGS=window.GreenSockGlobals,oldGSQueue=window._gsQueue,oldGSDefine=window._gsDefine;window._gsDefine=null;delete(window._gsDefine);var gwGS=window.GreenSockGlobals={};
+</script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js'></script>
+<script type='text/javascript'>
+try{window.GreenSockGlobals=null;window._gsQueue=null;window._gsDefine=null;delete(window.GreenSockGlobals);delete(window._gsQueue);delete(window._gsDefine);window.GreenSockGlobals=oldGS;window._gsQueue=oldGSQueue;window._gsDefine=oldGSDefine;}catch(e){}
+</script>
+<script src='//patronace.com/wp-content/cache/wpfc-minified/8tspwe9m/fws65.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8.2'></script> -->
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8.2'></script> -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dtLocal = {"themeUrl":"https:\/\/patronace.com\/wp-content\/themes\/dt-the7","passText":"Um diesen gesch\u00fctzten Eintrag anzusehen, geben Sie bitte das Passwort ein:","moreButtonText":{"loading":"Lade...","loadMore":"Mehr laden"},"postID":"7","ajaxurl":"https:\/\/patronace.com\/wp-admin\/admin-ajax.php","contactMessages":{"required":"One or more fields have an error. Please check and try again.","terms":"Please accept the privacy policy."},"ajaxNonce":"879955a28f","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"on","lazyLoading":false,"accentColor":{"mode":"solid","color":"#0658ff"},"desktopHeader":{"height":100},"floatingHeader":{"showAfter":100,"showMenu":true,"height":60,"logo":{"showLogo":true,"html":"<img class=\" preload-me\" src=\"https:\/\/patronace.com\/wp-content\/uploads\/2019\/01\/Patronace_Logo02.png\" srcset=\"https:\/\/patronace.com\/wp-content\/uploads\/2019\/01\/Patronace_Logo02.png 435w\" width=\"435\" height=\"62\"   sizes=\"435px\" alt=\"Patronace\" \/>","url":"https:\/\/patronace.com\/"}},"mobileHeader":{"firstSwitchPoint":1050,"secondSwitchPoint":778,"firstSwitchPointHeight":80,"secondSwitchPointHeight":60},"stickyMobileHeaderFirstSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/patronace.com\/wp-content\/uploads\/2019\/01\/Patronace_Logo01.png\" srcset=\"https:\/\/patronace.com\/wp-content\/uploads\/2019\/01\/Patronace_Logo01.png 290w\" width=\"290\" height=\"61\"   sizes=\"290px\" alt=\"Patronace\" \/>"}},"stickyMobileHeaderSecondSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/patronace.com\/wp-content\/uploads\/2019\/01\/Patronace_Logo01.png\" srcset=\"https:\/\/patronace.com\/wp-content\/uploads\/2019\/01\/Patronace_Logo01.png 290w\" width=\"290\" height=\"61\"   sizes=\"290px\" alt=\"Patronace\" \/>"}},"content":{"textColor":"#85868c","headerColor":"#ffffff"},"boxedWidth":"1340px","stripes":{"stripe1":{"textColor":"#787d85","headerColor":"#3b3f4a"},"stripe2":{"textColor":"#8b9199","headerColor":"#ffffff"},"stripe3":{"textColor":"#ffffff","headerColor":"#ffffff"}}},"VCMobileScreenWidth":"768"};
+var dtShare = {"shareButtonText":{"facebook":"Facebook","twitter":"Tweet","pinterest":"Pin it","linkedin":"Linkedin","whatsapp":"Share on Whatsapp","google":"Share on Google Plus","download":"Bild hochladen"},"overlayOpacity":"85"};
+/* ]]> */
+</script>
+<script src='//patronace.com/wp-content/cache/wpfc-minified/95x7ys7c/fwvht.js' type="text/javascript"></script>
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=7.4.0'></script> -->
+<!-- <script type='text/javascript' src='https://patronace.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.17.1'></script> -->
+<meta name="generator" content="Powered by LayerSlider 6.7.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel='https://api.w.org/' href='https://patronace.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://patronace.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://patronace.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<link rel="canonical" href="https://patronace.com/" />
+<link rel='shortlink' href='https://patronace.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://patronace.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpatronace.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://patronace.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpatronace.com%2F&#038;format=xml" />
+<meta property="og:site_name" content="Patronace" />
+<meta property="og:title" content="Startseite" />
+<meta property="og:url" content="https://patronace.com/" />
+<meta property="og:type" content="website" />
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://patronace.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.8.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) { 
+var load = document.getElementById("load");
+var removeLoading = setTimeout(function() {
+load.className += " loader-removed";
+}, 500);
+});
+</script>
+<script type="text/javascript">function setREVStartSize(e){									
+try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+};</script>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1549020305117{padding-bottom: 50px !important;}.vc_custom_1549016426215{padding-top: 0px !important;}.vc_custom_1549137291167{margin-bottom: 70px !important;}.vc_custom_1549133714235{margin-top: 30px !important;}.vc_custom_1549013635341{margin-right: -10vw !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="home page-template-default page page-id-7 wp-embed-responsive the7-core-ver-1.17.0 transparent light-preset-color dt-responsive-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color phantom-slide phantom-shadow-decoration phantom-custom-logo-on sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on no-avatars popup-message-style dt-fa-compatibility the7-ver-7.4.0 wpb-js-composer js-comp-ver-5.6 vc_responsive">
+<!-- The7 7.4.0 -->
+<div id="load" class="spinner-loader">
+<div class="load-wrap"></div>
+</div>
+<div id="page">
+<a class="skip-link screen-reader-text" href="#content">Zum Inhalt springen</a>
+<div class="masthead inline-header right full-height medium-mobile-menu-icon dt-parent-menu-clickable show-mobile-logo" style="background-color: rgba(0,0,0,0.5);" role="banner">
+<div class="top-bar line-content top-bar-empty top-bar-line-hide">
+<div class="top-bar-bg"  style="background-color: rgba(255,255,255,0.25);"></div>
+<div class="mini-widgets left-widgets"></div>			<div class="mini-widgets right-widgets"></div>		</div>
+<header class="header-bar">
+<div class="branding">
+<div id="site-title" class="assistive-text">Patronace</div>
+<div id="site-description" class="assistive-text"></div>
+<a href="https://patronace.com/"><img class=" preload-me" src="https://patronace.com/wp-content/uploads/2019/01/Patronace_Logo01.png" srcset="https://patronace.com/wp-content/uploads/2019/01/Patronace_Logo01.png 290w" width="290" height="61"   sizes="290px" alt="Patronace" /><img class="mobile-logo preload-me" src="https://patronace.com/wp-content/uploads/2019/01/Patronace_Logo01.png" srcset="https://patronace.com/wp-content/uploads/2019/01/Patronace_Logo01.png 290w" width="290" height="61"   sizes="290px" alt="Patronace" /></a>				</div>
+<ul id="primary-menu" class="main-nav underline-decoration l-to-r-line outside-item-remove-margin" role="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231 first"><a href='https://patronace.com/about/' data-level='1'><span class="menu-item-text"><span class="menu-text">About</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href='https://patronace.com/press/' data-level='1'><span class="menu-item-text"><span class="menu-text">Press</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href='https://patronace.com/contact/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contact</span></span></a></li> </ul>
+</header>
+</div><div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+<ul id="mobile-menu" class="mobile-main-nav" role="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231 first"><a href='https://patronace.com/about/' data-level='1'><span class="menu-item-text"><span class="menu-text">About</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href='https://patronace.com/press/' data-level='1'><span class="menu-item-text"><span class="menu-text">Press</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href='https://patronace.com/contact/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contact</span></span></a></li> 	</ul>
+<div class='mobile-mini-widgets-in-menu'></div>
+</div>
+<div id="main" class="sidebar-none sidebar-divider-vertical"  >
+<div class="main-gradient"></div>
+<div class="wf-wrap">
+<div class="wf-container-main">
+<div id="content" class="content" role="main">
+<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1549016426215"><div class="wpb_wrapper">
+<div  class="wpb_single_image wpb_content_element vc_align_center fadeIn animate-element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="vc_single_image-img " src="https://patronace.com/wp-content/uploads/2019/02/Start_1-1482x1042.png" width="1482" height="1042" alt="Start_1" title="Start_1"  data-dt-location="https://patronace.com/start_1/" /></div>
+</figure>
+</div>
+<div class="vc_row wpb_row vc_inner vc_row-fluid revolution"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div  class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="2600" height="129" src="https://patronace.com/wp-content/uploads/2019/01/revolutionxevolution.png" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/01/revolutionxevolution.png 2600w, https://patronace.com/wp-content/uploads/2019/01/revolutionxevolution-300x15.png 300w, https://patronace.com/wp-content/uploads/2019/01/revolutionxevolution-768x38.png 768w, https://patronace.com/wp-content/uploads/2019/01/revolutionxevolution-1024x51.png 1024w" sizes="(max-width: 2600px) 100vw, 2600px"  data-dt-location="https://patronace.com/startseite/revolutionxevolution/" /></div>
+</figure>
+</div>
+</div></div></div></div><div class="vc_btn3-container  absolute-bottom vc_btn3-inline vc_custom_1549137291167" >
+<a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-outline vc_btn3-color-white" href="https://patronace.com/#photos" title="revolut me">revolute me</a></div>
+</div></div></div></div><!-- Row Backgrounds --><div class="upb_bg_img" data-ultimate-bg="url(https://patronace.com/wp-content/uploads/2019/01/StartBg.png)" data-image-id="id^209|url^https://patronace.com/wp-content/uploads/2019/01/StartBg.png|caption^null|alt^null|title^StartBg|description^null" data-ultimate-bg-style="vcpb-default" data-bg-img-repeat="repeat-y" data-bg-img-size="contain" data-bg-img-position="" data-parallx_sense="30" data-bg-override="0" data-bg_img_attach="scroll" data-upb-overlay-color="" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.6"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div class="vc_row wpb_row vc_row-fluid fullwidth rexev"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div  class="wpb_single_image wpb_content_element vc_align_center fadeIn animate-element  wpb_animate_when_almost_visible wpb_fadeIn fadeIn  bg">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="2560" height="1600" src="https://patronace.com/wp-content/uploads/2019/02/Start_3_drip.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Start_3_drip.jpg 2560w, https://patronace.com/wp-content/uploads/2019/02/Start_3_drip-300x188.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Start_3_drip-768x480.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Start_3_drip-1024x640.jpg 1024w" sizes="(max-width: 2560px) 100vw, 2560px"  data-dt-location="https://patronace.com/startseite/start_3_drip/" /></div>
+</figure>
+</div>
+<div  class="wpb_single_image wpb_content_element vc_align_left    text paroller_invert">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="2600" height="1385" src="https://patronace.com/wp-content/uploads/2019/01/REXEV.png" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/01/REXEV.png 2600w, https://patronace.com/wp-content/uploads/2019/01/REXEV-300x160.png 300w, https://patronace.com/wp-content/uploads/2019/01/REXEV-768x409.png 768w, https://patronace.com/wp-content/uploads/2019/01/REXEV-1024x545.png 1024w" sizes="(max-width: 2600px) 100vw, 2600px"  data-dt-location="https://patronace.com/startseite/rexev/" /></div>
+</figure>
+</div>
+</div></div></div></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="rgba(255,255,255,0)" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.6"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div id="kickstarter" class="vc_row wpb_row vc_row-fluid fullwidth cta vc_custom_1549020305117"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element   vc_custom_1549133714235" id="blueheadline">
+<div class="wpb_wrapper">
+<h2 style="text-align: center;">GET ONE OF THE FIRST PIECES FROM THE PATRONACE COLLECTION<br />
+SOON</h2>
+</div>
+</div>
+<div class="vc_btn3-container vc_btn3-center" >
+<a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-outline vc_btn3-color-warning" href="https://patronace.com/press/" title="">for more information contact us</a></div>
+</div></div></div></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="#020202" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.6"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div class="vc_row wpb_row vc_row-fluid video"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+<div class="wpb_wrapper">
+<a href="https://vimeo.com/314788910" target="_blank">
+<video autoplay="1" muted="1" loop="1" id="backGroundVid">
+<source src="wp-content/themes/patronace/video/PatronaceClipSD360p.mp4" type="video/mp4">
+</video>
+</a>
+</div>
+</div>
+</div></div></div><div class="text wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element  " >
+<div class="wpb_wrapper">
+<h2>ANOTHER<br />
+SURFACE,<br />
+ANOTHER<br />
+WEAR.</h2>
+</div>
+</div>
+<div class="vc_btn3-container vc_btn3-inline" >
+<a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-square vc_btn3-style-outline vc_btn3-color-white" href="https://patronace.com/about/" title="revolut me">evolute me</a></div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid superman fullwidth"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element  " >
+<div class="wpb_wrapper">
+<h2>IT FEELS LIKE<br />
+A SUPERMAN<br />
+SUIT.</h2>
+<h3>the new kind<br />
+of acceleration</h3>
+</div>
+</div>
+<div  class="wpb_single_image wpb_content_element vc_align_right   vc_custom_1549013635341  paroller">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img class="vc_single_image-img " src="https://patronace.com/wp-content/uploads/2019/01/patronace_superman.png" width="818" height="460" alt="patronace_superman" title="patronace_superman"  data-dt-location="https://patronace.com/startseite/patronace_superman/" /></div>
+</figure>
+</div>
+</div></div></div></div><div id="photos" class="vc_row wpb_row vc_row-fluid fullwidth product"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1080" height="1080" src="https://patronace.com/wp-content/uploads/2019/02/Patronace_01.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Patronace_01.jpg 1080w, https://patronace.com/wp-content/uploads/2019/02/Patronace_01-150x150.jpg 150w, https://patronace.com/wp-content/uploads/2019/02/Patronace_01-300x300.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Patronace_01-768x768.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Patronace_01-1024x1024.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px"  data-dt-location="https://patronace.com/patronace_01-2/" /></div>
+</figure>
+</div>
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1080" height="1080" src="https://patronace.com/wp-content/uploads/2019/02/Patronace_07.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Patronace_07.jpg 1080w, https://patronace.com/wp-content/uploads/2019/02/Patronace_07-150x150.jpg 150w, https://patronace.com/wp-content/uploads/2019/02/Patronace_07-300x300.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Patronace_07-768x768.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Patronace_07-1024x1024.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px"  data-dt-location="https://patronace.com/patronace_07/" /></div>
+</figure>
+</div>
+<div class="wpb_text_column wpb_content_element   headline" >
+<div class="wpb_wrapper">
+<h2 style="text-align: center;">The Jacket</h2>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid fullwidth product"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1080" height="1080" src="https://patronace.com/wp-content/uploads/2019/02/Patronace_03.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Patronace_03.jpg 1080w, https://patronace.com/wp-content/uploads/2019/02/Patronace_03-150x150.jpg 150w, https://patronace.com/wp-content/uploads/2019/02/Patronace_03-300x300.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Patronace_03-768x768.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Patronace_03-1024x1024.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px"  data-dt-location="https://patronace.com/patronace_03-2/" /></div>
+</figure>
+</div>
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1080" height="1080" src="https://patronace.com/wp-content/uploads/2019/02/Patronace_08.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Patronace_08.jpg 1080w, https://patronace.com/wp-content/uploads/2019/02/Patronace_08-150x150.jpg 150w, https://patronace.com/wp-content/uploads/2019/02/Patronace_08-300x300.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Patronace_08-768x768.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Patronace_08-1024x1024.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px"  data-dt-location="https://patronace.com/patronace_08/" /></div>
+</figure>
+</div>
+<div class="wpb_text_column wpb_content_element   headline" >
+<div class="wpb_wrapper">
+<h2 style="text-align: center;">The Shirt</h2>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid fullwidth product"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1080" height="1080" src="https://patronace.com/wp-content/uploads/2019/02/Patronace_06.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Patronace_06.jpg 1080w, https://patronace.com/wp-content/uploads/2019/02/Patronace_06-150x150.jpg 150w, https://patronace.com/wp-content/uploads/2019/02/Patronace_06-300x300.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Patronace_06-768x768.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Patronace_06-1024x1024.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px"  data-dt-location="https://patronace.com/patronace_06-2/" /></div>
+</figure>
+</div>
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1080" height="1080" src="https://patronace.com/wp-content/uploads/2019/02/Patronace_02.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://patronace.com/wp-content/uploads/2019/02/Patronace_02.jpg 1080w, https://patronace.com/wp-content/uploads/2019/02/Patronace_02-150x150.jpg 150w, https://patronace.com/wp-content/uploads/2019/02/Patronace_02-300x300.jpg 300w, https://patronace.com/wp-content/uploads/2019/02/Patronace_02-768x768.jpg 768w, https://patronace.com/wp-content/uploads/2019/02/Patronace_02-1024x1024.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px"  data-dt-location="https://patronace.com/patronace_02-2/" /></div>
+</figure>
+</div>
+<div class="wpb_text_column wpb_content_element   headline" >
+<div class="wpb_wrapper">
+<h2 style="text-align: center;">The Hooded</h2>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid blue"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element  " >
+<div class="wpb_wrapper">
+<h2 style="text-align: center;">PATRONACE CREATES FASHION FOR YOUR ACCELERATED LIFE.</h2>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid instagram"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element  " >
+<div class="wpb_wrapper">
+<div id="sb_instagram" class="sbi sbi_mob_col_auto sbi_col_5" style="width:100%; " data-id="7196439688" data-num="5" data-res="auto" data-cols="5" data-options='{&quot;sortby&quot;: &quot;none&quot;, &quot;showbio&quot;: &quot;false&quot;,&quot;feedID&quot;: &quot;7196439688&quot;, &quot;headercolor&quot;: &quot;&quot;, &quot;imagepadding&quot;: &quot;&quot;,&quot;mid&quot;: &quot;M2E4MWE5Zg==&quot;, &quot;disablecache&quot;: &quot;false&quot;, &quot;sbiCacheExists&quot;: &quot;true&quot;,&quot;callback&quot;: &quot;ODljYmJiYmU5NWY2.NGI5YWEyZTM3ZTEyMjA4MDYxMWY=&quot;, &quot;sbiHeaderCache&quot;: &quot;true&quot;}'><div id="sbi_images"><div class="sbi_loader"></div></div><div id="sbi_load" class="sbi_hidden" style="padding-top: 5px"><span class="sbi_follow_btn"><a href="https://www.instagram.com/" style="" target="_blank"><i class="fa fab fa-instagram"></i></a></span></div></div>
+</div>
+</div>
+</div></div></div></div>
+<span class="cp-load-after-post"></span>
+</div><!-- #content -->
+
+</div><!-- .wf-container -->
+</div><!-- .wf-wrap -->
+</div><!-- #main -->
+<!-- !Footer -->
+<footer id="footer" class="footer solid-bg">
+<!-- !Bottom-bar -->
+<div id="bottom-bar" class="logo-left" role="contentinfo">
+<div class="wf-wrap">
+<div class="wf-container-bottom">
+<div id="branding-bottom"><a href="https://patronace.com/"><img class=" preload-me" src="https://patronace.com/wp-content/uploads/2019/01/Patronace_Footer-Kopie.png" srcset="https://patronace.com/wp-content/uploads/2019/01/Patronace_Footer-Kopie.png 50w" width="50" height="67"   sizes="50px" alt="Patronace" /></a></div>
+<div class="wf-float-left">
+<div class="menu-social-container"><ul id="menu-social" class="social"><li id="menu-item-197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-197"><a href="https://www.instagram.com/patronace/">Instagram</a></li>
+<li id="menu-item-198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198"><a href="https://vimeo.com/user90063378">Vimeo</a></li>
+<li id="menu-item-199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199"><a href="https://www.facebook.com/patronace/">Facebook</a></li>
+</ul></div>
+</div>
+<div class="wf-float-right">
+<div class="mini-nav"><ul id="bottom-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193 first"><a href='https://patronace.com/press/' data-level='1'><span class="menu-item-text"><span class="menu-text">Press</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-194"><a href='https://patronace.com/contact/' data-level='1'><span class="menu-item-text"><span class="menu-text">Contact</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href='https://patronace.com/datenschutzerklaerung/' data-level='1'><span class="menu-item-text"><span class="menu-text">Data Privacy</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href='https://patronace.com/imprint/' data-level='1'><span class="menu-item-text"><span class="menu-text">Imprint</span></span></a></li> </ul><div class="menu-select"><span class="customSelect1"><span class="customSelectInner">Footer</span></span></div></div>
+</div>
+</div><!-- .wf-container-bottom -->
+<div class="patent">
+panding patent technology
+</div>
+</div><!-- .wf-wrap -->
+</div><!-- #bottom-bar -->
+</footer><!-- #footer -->
+<a href="#" class="scroll-top"><span class="screen-reader-text">Go to Top</span></a>
+</div><!-- #page -->
+<script type="text/javascript" id="modal">
+document.addEventListener("DOMContentLoaded", function(){
+startclock();
+});
+function stopclock (){
+if(timerRunning) clearTimeout(timerID);
+timerRunning = false;
+//document.cookie="time=0";
+}
+function showtime () {
+var now = new Date();
+var my = now.getTime() ;
+now = new Date(my-diffms) ;
+//document.cookie="time="+now.toLocaleString();
+timerID = setTimeout('showtime()',10000);
+timerRunning = true;
+}
+function startclock () {
+stopclock();
+showtime();
+}
+var timerID = null;
+var timerRunning = false;
+var x = new Date() ;
+var now = x.getTime() ;
+var gmt = 1551871029 * 1000 ;
+var diffms = (now - gmt) ;
+</script>
+<script type="text/javascript" id="info-bar">
+document.addEventListener("DOMContentLoaded", function(){
+startclock();
+});
+function stopclock (){
+if(timerRunning) clearTimeout(timerID);
+timerRunning = false;
+//document.cookie="time=0";
+}
+function showtime () {
+var now = new Date();
+var my = now.getTime() ;
+now = new Date(my-diffms) ;
+//document.cookie="time="+now.toLocaleString();
+timerID = setTimeout('showtime()',10000);
+timerRunning = true;
+}
+function startclock () {
+stopclock();
+showtime();
+}
+var timerID = null;
+var timerRunning = false;
+var x = new Date() ;
+var now = x.getTime() ;
+var gmt = 1551871029 * 1000 ;
+var diffms = (now - gmt) ;
+</script>
+<script type="text/javascript" id="slidein">
+document.addEventListener("DOMContentLoaded", function(){
+startclock();
+});
+function stopclock (){
+if(timerRunning) clearTimeout(timerID);
+timerRunning = false;
+//document.cookie="time=0";
+}
+function showtime () {
+var now = new Date();
+var my = now.getTime() ;
+now = new Date(my-diffms) ;
+//document.cookie="time="+now.toLocaleString();
+timerID = setTimeout('showtime()',10000);
+timerRunning = true;
+}
+function startclock () {
+stopclock();
+showtime();
+}
+var timerID = null;
+var timerRunning = false;
+var x = new Date() ;
+var now = x.getTime() ;
+var gmt = 1551871029 * 1000 ;
+var diffms = (now - gmt) ;
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://patronace.com/wp-admin/admin-ajax.php";
+</script>
+<!-- <link rel='stylesheet' id='animate-css-css'  href='https://patronace.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ult-background-style-css'  href='https://patronace.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/background-style.min.css?ver=3.17.1' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="//patronace.com/wp-content/cache/wpfc-minified/2xwwrks/fwvht.css" media="all"/>
+<script type='text/javascript' src='https://patronace.com/wp-content/themes/dt-the7/js/main.min.js?ver=7.4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/patronace.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/go_pricing/assets/js/go_pricing_scripts.js?ver=3.3.13'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sb_instagram_js_options = {"sb_instagram_at":"","font_method":"svg"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/instagram-feed/js/sb-instagram.min.js?ver=1.10.2'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/dt-the7-core/assets/js/post-type.min.js?ver=7.4.0'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/themes/patronace/js/main.js'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/themes/patronace/js/jquery.paroller.min.js'></script>
+<script type='text/javascript' src='https://patronace.com/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.6'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.6'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-appear.min.js?ver=3.17.1'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate_bg.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='https://patronace.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/custom.min.js?ver=3.17.1'></script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div> 
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html><!-- WP Fastest Cache file was created in 0.91255712509155 seconds, on 06-03-19 12:17:09 -->
